@@ -11,6 +11,7 @@ import TestimonialSection from "../sections/TestimonialSection";
 import FooterSection from "../sections/FooterSection";
 import { MagneticCursor, FloatingParticles, PremiumLoader } from "../components/PremiumEffects";
 import ScrollProgress from "../components/ScrollProgress";
+import PerformanceDashboard from "../components/PerformanceDashboard";
 import { useState, useEffect } from 'react';
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
@@ -66,6 +67,9 @@ const HomePage = () => {
               <FooterSection />
             </div>
           </div>
+          
+          {/* Performance Dashboard - Development Only */}
+          <PerformanceDashboard isVisible={process.env.NODE_ENV === 'development'} />
         </main>
       )}
     </>
