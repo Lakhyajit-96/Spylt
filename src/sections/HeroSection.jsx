@@ -2,8 +2,10 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { SplitText } from "gsap/all";
 import { useMediaQuery } from "react-responsive";
+import { useNavigate } from 'react-router-dom';
 
 const HeroSection = () => {
+  const navigate = useNavigate();
   const isMobile = useMediaQuery({
     query: "(max-width: 768px)",
   });
@@ -11,6 +13,10 @@ const HeroSection = () => {
   const isTablet = useMediaQuery({
     query: "(max-width: 1024px)",
   });
+
+  const handleChugClick = () => {
+    navigate('/contact');
+  };
 
   useGSAP(() => {
     const titleSplit = SplitText.create(".hero-title", {
@@ -106,7 +112,10 @@ const HeroSection = () => {
             your inner kid with every deliciously smooth chug.
           </h2>
 
-          <div className="hero-button">
+          <div 
+            className="hero-button cursor-pointer hover:scale-105 transition-transform premium-button liquid-button magnetic premium-glow"
+            onClick={handleChugClick}
+          >
             <p>Chug a SPYLT</p>
           </div>
         </div>

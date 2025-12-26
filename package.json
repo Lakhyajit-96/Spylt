@@ -1,8 +1,32 @@
 {
-  "name": "gsap-awwwards",
+  "name": "spylt-beverage-brand",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "SPYLT™ - Premium beverage brand website with advanced animations and complete brand experience",
+  "author": {
+    "name": "Lakhyajit",
+    "email": "lakhya911@gmail.com",
+    "url": "https://github.com/Lakhyajit-96"
+  },
+  "license": "PROPRIETARY",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lakhyajit-96/Spylt.git"
+  },
+  "homepage": "https://github.com/Lakhyajit-96/Spylt",
+  "keywords": [
+    "spylt",
+    "beverage",
+    "brand",
+    "react",
+    "gsap",
+    "tailwind",
+    "premium",
+    "animations",
+    "protein",
+    "caffeine"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -16,6 +40,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-responsive": "^10.0.1",
+    "react-router-dom": "^7.11.0",
     "tailwindcss": "^4.1.8"
   },
   "devDependencies": {

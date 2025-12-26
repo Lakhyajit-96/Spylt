@@ -1,44 +1,33 @@
-import NavBar from "./components/NavBar";
-import HeroSection from "./sections/HeroSection";
-import { ScrollSmoother, ScrollTrigger } from "gsap/all";
-import gsap from "gsap";
-import MessageSection from "./sections/MessageSection";
-import FlavorSection from "./sections/FlavorSection";
-import { useGSAP } from "@gsap/react";
-import NutritionSection from "./sections/NutritionSection";
-import BenefitSection from "./sections/BenefitSection";
-import TestimonialSection from "./sections/TestimonialSection";
-import FooterSection from "./sections/FooterSection";
-
-gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import ContactPage from './pages/ContactPage';
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
+import TermsOfServicePage from './pages/TermsOfServicePage';
+import SpyltFlavorsPage from './pages/SpyltFlavorsPage';
+import ChugClubPage from './pages/ChugClubPage';
+import StudentMarketingPage from './pages/StudentMarketingPage';
+import DairyDealersPage from './pages/DairyDealersPage';
+import CompanyPage from './pages/CompanyPage';
+import ContactsPage from './pages/ContactsPage';
+import TastyTalkPage from './pages/TastyTalkPage';
 
 const App = () => {
-  useGSAP(() => {
-    ScrollSmoother.create({
-      smooth: 3,
-      effects: true,
-    });
-  });
-
   return (
-    <main>
-      <NavBar />
-      <div id="smooth-wrapper">
-        <div id="smooth-content">
-          <HeroSection />
-          <MessageSection />
-          <FlavorSection />
-          <NutritionSection />
-
-          <div>
-            <BenefitSection />
-            <TestimonialSection />
-          </div>
-
-          <FooterSection />
-        </div>
-      </div>
-    </main>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+        <Route path="/terms-of-service" element={<TermsOfServicePage />} />
+        <Route path="/spylt-flavors" element={<SpyltFlavorsPage />} />
+        <Route path="/chug-club" element={<ChugClubPage />} />
+        <Route path="/student-marketing" element={<StudentMarketingPage />} />
+        <Route path="/dairy-dealers" element={<DairyDealersPage />} />
+        <Route path="/company" element={<CompanyPage />} />
+        <Route path="/contacts" element={<ContactsPage />} />
+        <Route path="/tasty-talk" element={<TastyTalkPage />} />
+      </Routes>
+    </Router>
   );
 };
 
