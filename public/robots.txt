@@ -1,0 +1,48 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://github.com/Lakhyajit-96/Spylt/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Disallow admin areas and sensitive files
+Disallow: /admin/
+Disallow: /.env
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /*.log
+Disallow: /package*.json
+
+# Allow important resources for SEO
+Allow: /images/
+Allow: /videos/
+Allow: /fonts/
+Allow: /*.css
+Allow: /*.js
+Allow: /manifest.json
+Allow: /sw.js
+
+# Specific bot instructions
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+# Block unwanted bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /

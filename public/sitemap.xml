@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://github.com/Lakhyajit-96/Spylt/</loc>
+    <lastmod>2025-12-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://github.com/Lakhyajit-96/Spylt/images/Final.png</image:loc>
+      <image:title>SPYLT™ Premium Beverage Brand</image:title>
+      <image:caption>Revolutionary protein and caffeine beverages</image:caption>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://github.com/Lakhyajit-96/Spylt/images/video-img.webp</video:thumbnail_loc>
+      <video:title>SPYLT™ Brand Experience</video:title>
+      <video:description>Discover the premium beverage that combines protein and caffeine</video:description>
+    </video:video>
+  </url>
+
+  <!-- SPYLT Flavors -->
+  <url>
+    <loc>https://github.com/Lakhyajit-96/Spylt/spylt-flavors</loc>
+    <lastmod>2025-12-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://github.com/Lakhyajit-96/Spylt/images/brown-drink.webp</image:loc>
+      <image:title>SPYLT™ Chocolate Milk Flavor</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://github.com/Lakhyajit-96/Spylt/images/red-drink.webp</image:loc>
+      <image:title>SPYLT™ Strawberry Milk Flavor</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://github.com/Lakhyajit-96/Spylt/images/blue-drink.webp</image:loc>
+      <image:title>SPYLT™ Cookies & Cream Flavor</image:title>
+    </image:image>
+  </url>
+
+  <!-- Company Page -->
+  <url>
+    <loc>https://github.com/Lakhyajit-96/Spylt/company</loc>
+    <lastmod>2025-12-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://github.com/Lakhyajit-96/Spylt/images/hero-img.png</image:loc>
+      <image:title>SPYLT™ Company Story</image:title>
+    </image:image>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://github.com/Lakhyajit-96/Spylt/contact</loc>
+    <lastmod>2025-12-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Tasty Talk Blog -->
+  <url>
+    <loc>https://github.com/Lakhyajit-96/Spylt/tasty-talk</loc>
+    <lastmod>2025-12-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Chug Club -->
+  <url>
+    <loc>https://github.com/Lakhyajit-96/Spylt/chug-club</loc>
+    <lastmod>2025-12-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://github.com/Lakhyajit-96/Spylt/images/red-drink.webp</image:loc>
+      <image:title>SPYLT™ Chug Club Community</image:title>
+    </image:image>
+  </url>
+
+  <!-- Student Marketing -->
+  <url>
+    <loc>https://github.com/Lakhyajit-96/Spylt/student-marketing</loc>
+    <lastmod>2025-12-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Dairy Dealers -->
+  <url>
+    <loc>https://github.com/Lakhyajit-96/Spylt/dairy-dealers</loc>
+    <lastmod>2025-12-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Contacts -->
+  <url>
+    <loc>https://github.com/Lakhyajit-96/Spylt/contacts</loc>
+    <lastmod>2025-12-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://github.com/Lakhyajit-96/Spylt/privacy-policy</loc>
+    <lastmod>2025-12-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Terms of Service -->
+  <url>
+    <loc>https://github.com/Lakhyajit-96/Spylt/terms-of-service</loc>
+    <lastmod>2025-12-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>
